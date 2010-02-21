@@ -1,0 +1,35 @@
+Readme Xournal AppleScript wapper
+by Jørgen Rieck
+
+Introduction
+
+Xournal is an application for notetaking, sketching, keeping a journal using a stylus. It is free software (GNU GPL) and runs on Linux (recent distributions) and other GTK+/Gnome platforms.
+This is an AppleScript wrapped as an Application bundle (.app) for Mac OS X. It contains the resources an icons for OS X to recognize it as an ordinary application. It does not contain the actual application or any of the needed libraries, it only provides better usability and integration with Mac OS X, Finder and the Dock.
+
+
+Installation
+
+Download the .app bundle and place it in your Applications folder.
+It assumes that xournal is installed with MacPorts and that the binary file is located in /opt/local/bin/xournal. If you have installed it in any other way, or the binary is in another location, you will have to change the symlink in Xournal.app/Contents/MacOS/xournal and make it point in the right direction.
+
+For installing MacPorts, see:
+www.macports.org/
+
+You'll also need the developer tools from Apple to compile Xournal and the dependencies:
+http://developer.apple.com/tools/xcode/
+
+For information on how to symlink, please read the man pages:
+http://developer.apple.com/mac/library/documentation/Darwin/Reference/ManPages/man1/ln.1.html
+
+
+License
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
